@@ -6,7 +6,7 @@ A modern freelance task marketplace where individuals can post small tasks and f
 🔗 **Server Website:**(https://freelance-task-marketplace.web.app)
 
 🔧 **Server Repository:** [https://github.com/rifat-hasan121/Quick-Hunt]
-🎨 **Client Repository:** [https://freelance-task-marketplace-server-nine.vercel.app]
+
 ---
 
 ## 🌟 Features
