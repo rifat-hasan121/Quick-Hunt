@@ -2,10 +2,11 @@
 
 A modern freelance task marketplace where individuals can post small tasks and freelancers can browse and bid on them based on their skills, budget, and deadlines.
 
-🔗 **Live Website:**(https://freelance-task-marketplace.web.app/)
+🔗 **Live Website:**(https://freelance-task-marketplace.web.app)
+🔗 **Server Website:**(https://freelance-task-marketplace.web.app)
 
-🔧 **Server Repository:** [Private]
-🎨 **Client Repository:** [Private]
+🔧 **Server Repository:** [https://github.com/rifat-hasan121/Quick-Hunt]
+🎨 **Client Repository:** [https://freelance-task-marketplace-server-nine.vercel.app]
 ---
 
 ## 🌟 Features
