@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  /* themes: light --default; */
+  
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #1B56FD;
+  --color-secondary: #00c950;
+  --color-base-200: #E8F9FF;
+  --color-base-300: #e7e7e7;
+  --color-accent: #9f9f9f;
+}
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+a.active {
+  @apply text-blue-600 underline;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.light{
+  background-color: white;
+  color: black;
+}
+ .dark{
+  background-color: black;
+  color: white;
+ }

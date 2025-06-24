@@ -1,0 +1,170 @@
+[
+  {
+    "id": "job-001",
+    "type": "Full Time",
+    "company": "A.K Infra & Reality Developers Pvt. Ltd.",
+    "role": "WordPress Web Developer",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "badge": "Full Time",
+    "isFavorite": false,
+    "modal": {
+      "title": "WordPress Web Developer",
+      "company": "A.K Infra & Reality Developers Pvt. Ltd.",
+      "employmentType": "Full Time",
+      "location": "Remote / On-site (not specified)",
+      "description": "Seeking an experienced WordPress developer for full-stack site development and theme customization.",
+      "requirements": [
+        "Proficiency in WordPress, PHP, HTML, CSS, JS",
+        "Experience with plugins and theme building",
+        "Strong debugging and optimization skills"
+      ]
+    }
+  },
+  {
+    "id": "job-002",
+    "type": "Remote",
+    "company": "LinkedIn Inc.",
+    "role": "LinkedIn Content Strategist",
+    "logo": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+    "badge": "Remote",
+    "isFavorite": false,
+    "modal": {
+      "title": "LinkedIn Content Strategist",
+      "company": "LinkedIn Inc.",
+      "employmentType": "Remote",
+      "location": "Anywhere",
+      "description": "Develop and manage content for personal and business LinkedIn pages.",
+      "requirements": [
+        "Excellent writing skills",
+        "Understanding of LinkedIn algorithm",
+        "Experience with B2B communication"
+      ]
+    }
+  },
+  {
+    "id": "job-003",
+    "type": "Part Time",
+    "company": "Creative Minds",
+    "role": "Graphic Designer",
+    "logo": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+    "badge": "Part Time",
+    "isFavorite": false,
+    "modal": {
+      "title": "Graphic Designer",
+      "company": "Creative Minds",
+      "employmentType": "Part Time",
+      "location": "On-site",
+      "description": "Design visuals for print and digital media including logos, posters, and banners.",
+      "requirements": [
+        "Expert in Adobe Illustrator & Photoshop",
+        "Creativity and attention to detail",
+        "Experience with brand identity design"
+      ]
+    }
+  },
+  {
+    "id": "job-004",
+    "type": "Full Time",
+    "company": "GameZone Studio",
+    "role": "Games & UI Developer",
+    "logo": "https://cdn-icons-png.flaticon.com/512/843/843310.png",
+    "badge": "Full Time",
+    "isFavorite": false,
+    "modal": {
+      "title": "Games & UI Developer",
+      "company": "GameZone Studio",
+      "employmentType": "Full Time",
+      "location": "Hybrid",
+      "description": "Build game UIs and develop interactive interfaces using Unity or Unreal.",
+      "requirements": [
+        "Proficiency in Unity or Unreal Engine",
+        "Experience with UI/UX design in games",
+        "Strong programming skills in C# or C++"
+      ]
+    }
+  },
+  {
+    "id": "job-005",
+    "type": "Freelance",
+    "company": "InstaSpark Media",
+    "role": "Instagram Manager",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "badge": "Freelance",
+    "isFavorite": false,
+    "modal": {
+      "title": "Instagram Manager",
+      "company": "InstaSpark Media",
+      "employmentType": "Freelance",
+      "location": "Remote",
+      "description": "Create, post, and analyze Instagram content to grow brand awareness.",
+      "requirements": [
+        "Strong understanding of Instagram trends",
+        "Content creation & graphic design skills",
+        "Analytics and audience engagement experience"
+      ]
+    }
+  },
+  {
+    "id": "job-006",
+    "type": "Contract",
+    "company": "TechBuild Solutions",
+    "role": "Drupal Web Developer",
+    "logo": "https://cdn-icons-png.flaticon.com/512/919/919832.png",
+    "badge": "Contract",
+    "isFavorite": false,
+    "modal": {
+      "title": "Drupal Web Developer",
+      "company": "TechBuild Solutions",
+      "employmentType": "Contract",
+      "location": "Remote",
+      "description": "Develop and maintain enterprise-level websites using Drupal CMS.",
+      "requirements": [
+        "Advanced knowledge of Drupal 8/9",
+        "Strong backend skills (PHP, MySQL)",
+        "Experience with custom module development"
+      ]
+    }
+  },
+  {
+    "id": "job-007",
+    "type": "Full Time",
+    "company": "UXCraft",
+    "role": "Figma Designer",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+    "badge": "Full Time",
+    "isFavorite": false,
+    "modal": {
+      "title": "Figma Designer",
+      "company": "UXCraft",
+      "employmentType": "Full Time",
+      "location": "On-site",
+      "description": "Design wireframes and prototypes for digital products using Figma.",
+      "requirements": [
+        "Advanced skills in Figma",
+        "Strong UX/UI understanding",
+        "Ability to collaborate with dev teams"
+      ]
+    }
+  },
+  {
+    "id": "job-008",
+    "type": "Internship",
+    "company": "Pixomatic Studio",
+    "role": "Photoshop Artist",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png",
+    "badge": "Internship",
+    "isFavorite": false,
+    "modal": {
+      "title": "Photoshop Artist",
+      "company": "Pixomatic Studio",
+      "employmentType": "Internship",
+      "location": "On-site",
+      "description": "Assist in photo editing and manipulation projects using Adobe Photoshop.",
+      "requirements": [
+        "Basic to advanced knowledge of Photoshop",
+        "Creativity and visual storytelling",
+        "Portfolio with image editing samples"
+      ]
+    }
+  }
+]

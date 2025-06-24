@@ -1,0 +1,125 @@
+[
+  {
+    "id": "cat-001",
+    "title": "Accounting & Finance",
+    "jobsFound": "310",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828911.png",
+    "slug": "accounting-finance",
+    "description": "Explore opportunities in financial reporting, auditing, tax planning, and investment management.",
+    "topCompanies": ["KPMG", "Deloitte", "EY", "PwC", "HDFC Bank"],
+    "popularRoles": [
+      "Accountant",
+      "Financial Analyst",
+      "Auditor",
+      "Tax Consultant"
+    ],
+    "locationAvailability": ["Mumbai", "Delhi", "Bangalore", "Chennai"]
+  },
+  {
+    "id": "cat-002",
+    "title": "Art & Design",
+    "jobsFound": "200",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3447/3447559.png",
+    "slug": "art-design",
+    "description": "Creative roles in illustration, animation, fine arts, and visual storytelling.",
+    "topCompanies": ["Adobe", "Byju's", "Pepperfry", "Zee Studios"],
+    "popularRoles": [
+      "Graphic Designer",
+      "Illustrator",
+      "Animator",
+      "Creative Director"
+    ],
+    "locationAvailability": ["Mumbai", "Bangalore", "Pune"]
+  },
+  {
+    "id": "cat-003",
+    "title": "Transportation",
+    "jobsFound": "100k",
+    "icon": "https://cdn-icons-png.flaticon.com/512/854/854894.png",
+    "slug": "transportation",
+    "description": "Drive logistics and transport infrastructure across regions.",
+    "topCompanies": ["Uber", "Ola", "Indian Railways", "DHL", "FedEx"],
+    "popularRoles": [
+      "Logistics Manager",
+      "Driver",
+      "Fleet Manager",
+      "Supply Chain Analyst"
+    ],
+    "locationAvailability": ["Pan India"]
+  },
+  {
+    "id": "cat-004",
+    "title": "Telecommunications",
+    "jobsFound": "507",
+    "icon": "https://cdn-icons-png.flaticon.com/512/484/484167.png",
+    "slug": "telecommunications",
+    "description": "Work in networks, wireless systems, and telecom infrastructure.",
+    "topCompanies": ["Jio", "Airtel", "Vodafone Idea", "BSNL"],
+    "popularRoles": ["Network Engineer", "Field Technician", "Telecom Analyst"],
+    "locationAvailability": ["Delhi NCR", "Hyderabad", "Mumbai"]
+  },
+  {
+    "id": "cat-005",
+    "title": "Designing & Multimedia",
+    "jobsFound": "10k",
+    "icon": "https://cdn-icons-png.flaticon.com/512/841/841364.png",
+    "slug": "designing-multimedia",
+    "description": "Jobs involving UI/UX, video editing, motion graphics, and brand identity design.",
+    "topCompanies": ["Zomato", "Swiggy", "Flipkart", "Amazon"],
+    "popularRoles": [
+      "UI Designer",
+      "UX Researcher",
+      "Video Editor",
+      "Motion Designer"
+    ],
+    "locationAvailability": ["Bangalore", "Mumbai", "Remote"]
+  },
+  {
+    "id": "cat-006",
+    "title": "Education Training",
+    "jobsFound": "102",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1826/1826665.png",
+    "slug": "education-training",
+    "description": "Contribute to learning by becoming a trainer, teacher, or education coordinator.",
+    "topCompanies": ["BYJU'S", "Unacademy", "Vedantu", "Teach For India"],
+    "popularRoles": [
+      "Trainer",
+      "Teacher",
+      "Instructional Designer",
+      "Curriculum Developer"
+    ],
+    "locationAvailability": ["Delhi", "Pune", "Bangalore"]
+  },
+  {
+    "id": "cat-007",
+    "title": "Automotive Jobs",
+    "jobsFound": "45",
+    "icon": "https://cdn-icons-png.flaticon.com/512/743/743131.png",
+    "slug": "automotive-jobs",
+    "description": "Explore mechanical, production, and service roles in the auto sector.",
+    "topCompanies": ["Tata Motors", "Mahindra", "Maruti Suzuki", "Bosch"],
+    "popularRoles": [
+      "Mechanic",
+      "Automobile Engineer",
+      "Service Manager",
+      "Quality Analyst"
+    ],
+    "locationAvailability": ["Pune", "Gurgaon", "Chennai"]
+  },
+  {
+    "id": "cat-008",
+    "title": "Banking Jobs",
+    "jobsFound": "32",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828932.png",
+    "slug": "banking-jobs",
+    "description": "Join the financial world with careers in retail, investment, and corporate banking.",
+    "topCompanies": ["HDFC Bank", "ICICI Bank", "Axis Bank", "SBI"],
+    "popularRoles": [
+      "Bank Teller",
+      "Relationship Manager",
+      "Loan Officer",
+      "Credit Analyst"
+    ],
+    "locationAvailability": ["Mumbai", "Kolkata", "Ahmedabad"]
+  }
+]
