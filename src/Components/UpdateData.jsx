@@ -39,7 +39,7 @@ const UpdateData = () => {
 
   return (
     <div>
-      <div className="py-28 bg-[url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg)] dark:bg-[url(https://1.bp.blogspot.com/-k3rtzfw-l4I/YU0SLCYg3BI/AAAAAAAABuw/Tq4H0_oSUg8NrGJAOyefbwP81v9EXrMmwCLcBGAsYHQ/s0/Screenshot%2B%2528797%2529.jpg)] dark:text-white bg-cover bg-center bg-no-repeat">
+      <div className="py-28 ">
         <form
           onSubmit={handleFormUpdate}
           class="max-w-2xl mx-auto p-4 sm:p-6 md:p-8 rounded-2xl shadow-md space-y-6 bg-transparent backdrop-blur-xl "

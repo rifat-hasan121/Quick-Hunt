@@ -1,4 +1,5 @@
-import React from "react";
+import React  from "react";
+
 
 const candidates = [
   {
@@ -46,13 +47,15 @@ const candidates = [
 ];
 
 export default function CandidateCards() {
+
+
   return (
     <section className="py-12 px-4 md:px-12 bg-blue-100 dark:bg-zinc-900 dark:text-white">
       <div className="text-center mb-10">
-        <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold my-6">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold my-12">
           High Qualified <span className="text-blue-600">Candidates</span>
         </h2>
-        <p className="tex-[12px] md:text-[18px]">
+        <p className="tex-[12px] md:text-[18px] mb-12">
           Discover top-rated professionals across multiple skill sets to help
           you <br /> bring your projects to life.
         </p>
@@ -60,6 +63,7 @@ export default function CandidateCards() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {candidates.map((candidate, index) => (
           <div
+            data-aos="fade-up-left"
             key={index}
             className="bg-white dark:bg-zinc-600 shadow-lg rounded-xl p-6 text-center hover:shadow-xl transition duration-300"
           >
@@ -67,7 +71,7 @@ export default function CandidateCards() {
               <img
                 src={candidate.img}
                 alt={candidate.name}
-                className="w-full h-full object-cover rounded-full border-4 border-white shadow"
+                className="w-full h-full object-cover rounded-full border-4 border-white shadow transition-transform duration-500 ease-in-out transform hover:scale-105"
               />
               <span className="absolute top-0 right-0 bg-green-500 w-4 h-4 rounded-full border-2 border-white"></span>
             </div>

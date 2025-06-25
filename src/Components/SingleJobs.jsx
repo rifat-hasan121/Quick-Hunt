@@ -13,10 +13,10 @@ const SingleJobs = () => {
     return (
       <div className="dark:bg-zinc-900 bg-blue-100">
         <div className="w-11/12 mx-auto text-center py-12 dark:text-zinc-200 ">
-          <h3 className="text-2xl sm:text-3xl md:text-5xl font-semibold my-6">
+          <h3 className="text-2xl sm:text-3xl md:text-5xl font-semibold my-12">
             Top Featured <span className="text-primary">Jobs</span>
           </h3>
-          <p className='text-[12px] md:text-[18px]'>
+          <p className='text-[12px] md:text-[18px] mb-12'>
             Explore the most in-demand freelance jobs handpicked just for you.
             Find your next opportunity and <br /> start working with top clients
             today!

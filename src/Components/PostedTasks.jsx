@@ -19,7 +19,7 @@ const PostedTasks = () => {
   return (
     <>
       <div className="w-11/12 mx-auto  py-30 ">
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto rounded-lg">
           <table className="table">
             <thead>
               <tr className="text-black dark:text-zinc-300">

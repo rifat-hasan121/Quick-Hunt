@@ -10,6 +10,9 @@ import Home from "../Components/Home";
 import SeeDetails from "../Components/SeeDetails";
 import PrivetRoute from "../Provider/PrivetRoute";
 import UpdateData from "../Components/UpdateData";
+import DashboardLayout from "../Deasbord/DashboardLayout";
+import Overview from "../Deasbord/OverView";
+import HomeDash from "../Deasbord/HomeDash";
 
 const router = createBrowserRouter([
   {
@@ -19,14 +22,6 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
-      },
-      {
-        path: "/add-task",
-        element: (
-          <PrivetRoute>
-            <AddTask></AddTask>
-          </PrivetRoute>
-        ),
       },
       {
         path: "/browse-tasks",
@@ -49,32 +44,47 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/posted-tasks",
-        element: (
-          <PrivetRoute>
-            <PostedTasks></PostedTasks>
-          </PrivetRoute>
-        ),
-      },
-      {
-        path: "/update-data/:id",
-        loader: ({ params }) =>
-          fetch(
-            `https://freelance-task-marketplace-server-nine.vercel.app/addUser/${params.id}`
-          ),
-        element: (
-          <PrivetRoute>
-            <UpdateData></UpdateData>
-          </PrivetRoute>
-        ),
-      },
-      {
         path: "/login",
         Component: Login,
       },
       {
         path: "/register",
         Component: Register,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    Component: DashboardLayout,
+    children: [
+      { index: true, Component: Overview },
+
+      {
+        path: "posted-tasks",
+        element: <PostedTasks></PostedTasks>,
+      },
+
+      {
+        path: "add-task",
+        element: <AddTask></AddTask>,
+      },
+
+      {
+        path: "all-items",
+        loader: () =>
+          fetch(
+            "https://freelance-task-marketplace-server-nine.vercel.app/addUser"
+          ),
+        Component: BrowseTasks,
+      },
+
+      {
+        path: `update-data/:id`,
+        loader: ({ params }) =>
+          fetch(
+            `https://freelance-task-marketplace-server-nine.vercel.app/addUser/${params.id}`
+          ),
+        element: <UpdateData></UpdateData>,
       },
     ],
   },

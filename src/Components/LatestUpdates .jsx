@@ -28,10 +28,10 @@ const LatestUpdates = () => {
   return (
     <section className="py-12 px-4 md:px-8 lg:px-16 bg-blue-50 dark:bg-zinc-800 dark:text-white ">
       <div className="text-center mb-12">
-        <h3 className="text-2xl sm:text-3xl md:text-5xl font-semibold my-6">
+        <h3 className="text-2xl sm:text-3xl md:text-5xl font-semibold my-12">
           Latest Updates & <span className="text-primary"> News</span>
         </h3>
-        <p className="text-[12px] md:text-[18px] mb-4">
+        <p className="text-[12px] md:text-[18px] mb-12">
           Stay informed with the latest trends, insights, and stories from our
           community of freelancers and clients. Discover <br />
           expert tips, industry news, and platform updates—all in one place.
@@ -41,6 +41,7 @@ const LatestUpdates = () => {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {updates.map((item, index) => (
           <div
+            data-aos="fade-down"
             key={index}
             className="bg-white dark:bg-zinc-600 shadow-md rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
           >
