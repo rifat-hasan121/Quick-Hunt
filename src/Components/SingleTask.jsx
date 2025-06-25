@@ -4,7 +4,10 @@ const SingleTask = ({ tasks }) => {
   const { title, category, deadline, budget, description, userName } = tasks;
 
   return (
-    <div className="bg-white dark:bg-zinc-700  rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+    <div
+      data-aos="fade-up"
+      className="bg-white dark:bg-zinc-700  rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100"
+    >
       <h2 className="text-xl font-bold text-blue-600 mb-1">{title}</h2>
 
       <p className="text-sm text-gray-500 mb-2">

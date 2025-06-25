@@ -33,8 +33,8 @@ const LatestUpdates = () => {
         </h3>
         <p className="text-[12px] md:text-[18px] mb-4">
           Stay informed with the latest trends, insights, and stories from our
-          community of freelancers and clients. Discover <br />expert tips, industry
-          news, and platform updates—all in one place.
+          community of freelancers and clients. Discover <br />
+          expert tips, industry news, and platform updates—all in one place.
         </p>
       </div>
 
@@ -47,14 +47,18 @@ const LatestUpdates = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-56 object-cover"
+              className="w-full h-56 object-cover transition-transform duration-500 ease-in-out transform hover:scale-110"
             />
             <div className="p-5">
-              <p className="text-sm text-gray-500 dark:text-zinc-200 mb-1">By {item.author}</p>
+              <p className="text-sm text-gray-500 dark:text-zinc-200 mb-1">
+                By {item.author}
+              </p>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 {item.title}
               </h3>
-              <p className="text-sm text-gray-600 dark:text-zinc-300 mb-4">{item.desc}</p>
+              <p className="text-sm text-gray-600 dark:text-zinc-300 mb-4">
+                {item.desc}
+              </p>
               <div className="flex flex-wrap gap-2">
                 {item.tags.map((tag, tagIndex) => (
                   <span
