@@ -61,19 +61,34 @@ Make sure to add the following variables in both the client and server `.env` fi
 - **Server:** Deployed on [Vercel](https://vercel.com/)
 
 ---
+## How to run
+git clone https://github.com/rifat-hasan121/Quick-Hunt-Client.git
 
-## 📸 Screenshots
+cd Quick-Hunt-Client
+npm install
 
-![Banner Screenshot](./screenshots/banner.png)
-![Browse Tasks Screenshot](./screenshots/browse-tasks.png)
+
+VITE_API_URL=your-server-url
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
+VITE_FIREBASE_APP_ID=your-app-id
+
+
+npm run dev
+
+
+
 
 ---
 
 ## 📞 Contact
 
-- 📧 Email: your-email@example.com
-- 🌐 LinkedIn: [your-linkedin](https://linkedin.com/in/yourprofile)
-- 💼 Portfolio: [your-portfolio.com](https://your-portfolio.com)
+- 📧 Email: your-rifathasannetrakona@gmail.com
+- 🌐 LinkedIn: [your-linkedin](https://www.linkedin.com/in/md-rifat-hasan-46256b325)
+- 💼 Portfolio: [your-portfolio.com](https://rifat-hasan.netlify.app/)
 
 ---
 
