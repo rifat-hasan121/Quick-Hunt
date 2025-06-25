@@ -79,8 +79,8 @@ npm start
 ## 📞 Contact
 
 - 📧 Email: your-rifathasannetrakona@gmail.com
-- 🌐 LinkedIn: [your-linkedin](https://www.linkedin.com/in/md-rifat-hasan-46256b325)
-- 💼 Portfolio: [your-portfolio.com](https://rifat-hasan.netlify.app/)
+- 🌐 LinkedIn: (https://www.linkedin.com/in/md-rifat-hasan-46256b325)
+- 💼 Portfolio: (https://rifat-hasan.netlify.app/)
 
 ---
 
