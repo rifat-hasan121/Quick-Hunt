@@ -64,7 +64,7 @@ Make sure to add the following variables in both the client and server `.env` fi
 ## 🚀 Clone the Project
 
 git clone https://github.com/rifat-hasan121/Quick-Hunt-Client.git
-git clone https://github.com/rifat-hasan121/Quick-Hunt-Server.git
+
 
 ## 📁 Client Setup
 
