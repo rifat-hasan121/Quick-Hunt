@@ -61,12 +61,17 @@ Make sure to add the following variables in both the client and server `.env` fi
 - **Server:** Deployed on [Vercel](https://vercel.com/)
 
 ---
-## How to run
+## 🚀 Clone the Project
+
 git clone https://github.com/rifat-hasan121/Quick-Hunt-Client.git
+git clone https://github.com/rifat-hasan121/Quick-Hunt-Server.git
+
+## 📁 Client Setup
 
 cd Quick-Hunt-Client
 npm install
 
+## 🔑 Create a .env file inside the client folder and add:
 
 VITE_API_URL=your-server-url
 VITE_FIREBASE_API_KEY=your-api-key
@@ -76,9 +81,7 @@ VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
 VITE_FIREBASE_APP_ID=your-app-id
 
-
 npm run dev
-
 
 
 
@@ -92,7 +95,7 @@ npm run dev
 
 ---
 
-> 🔄 Last updated on: May 23, 2025
+> 🔄 Last updated on: May 25, 2025
 
 
 
