@@ -9,18 +9,17 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 // import required modules
-import HobbySlider from "./HeroSlider";
+
 import Counter from "./Counter";
 import LatestUpdates from "./LatestUpdates ";
 import CandidateCards from "./CandidateCards";
+import Hero from "./Hero";
 
 const Home = () => {
   
   return (
     <>
-      <div>
-        <HobbySlider></HobbySlider>
-      </div>
+      <Hero></Hero>
       {/* featured task */}
       <FeaturedTasks></FeaturedTasks>
       {/* jobs */}
