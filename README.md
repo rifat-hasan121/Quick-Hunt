@@ -41,13 +41,12 @@ A modern freelance task marketplace where individuals can post small tasks and f
 ### `.env (Client Side)`
 
 ```env
-VITE_API_URL=your-server-url
-VITE_FIREBASE_API_KEY=your-api-key
-VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
-VITE_FIREBASE_PROJECT_ID=your-project-id
-VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
-VITE_FIREBASE_APP_ID=your-app-id
+VITE_apiKey: "AIzaSyAvRfccrMcKboUc7GCvEZzyRPioMO4cJBg",
+VITE_authDomain: "freelance-task-marketplace.firebaseapp.com",
+VITE_projectId: "freelance-task-marketplace",
+VITE_storageBucket: "freelance-task-marketplace.firebasestorage.app",
+VITE_messagingSenderId: "569783921618",
+VITE_appId: "1:569783921618:web:eb6a9ffd6d3366316f760b"
 
 🛠️ Getting Started – How to Run This Project Locally
 ⚙️ Prerequisites
