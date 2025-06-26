@@ -1,5 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
+import Lottie from 'lottie-react';
+import animation from '/public/Animation - 1750936157769.json'; // Adjust the path as necessary
 
 const Hero = () => {
     return (
@@ -22,7 +24,9 @@ const Hero = () => {
             <SearchBar></SearchBar>
           </div>
         </div>
-        <div className="w-2xl"></div>
+        <div className="w-2xl">
+          <Lottie animationData={animation}/>
+        </div>
       </div>
     );
 };

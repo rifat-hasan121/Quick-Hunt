@@ -57,7 +57,7 @@ const UserPosted = ({ task, index, tasks, setTasks }) => {
       <td>{task.budget}</td>
       <td>{task.deadline}</td>
       <td>
-        <Link to={`/update-data/${_id}`}>
+        <Link to={`/dashboard/update-data/${_id}`}>
           <button className="cursor-pointer">
             <FaPenNib size={28} />
           </button>

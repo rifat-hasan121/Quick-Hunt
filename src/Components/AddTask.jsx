@@ -49,9 +49,9 @@ const { incrementNotification } = useContext(NotificationContext);
           });
           // Reset the form
           form.reset();
-          // fetch success এর ভিতরে এটা call করো:
+          
           if (data.insertedId) {
-            incrementNotification(); // ✅ নোটিফিকেশন বাড়াও
+            incrementNotification(); 
             Swal.fire({
               title: `${task.title} added successfully!`,
               icon: "success",
@@ -187,7 +187,6 @@ const { incrementNotification } = useContext(NotificationContext);
           </div>
         </form>
       </div>
-
       <div>
         <img
           className="w-full h-[400px] md:h-[500px] rounded-2xl"

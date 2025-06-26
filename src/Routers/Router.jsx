@@ -31,6 +31,7 @@ const router = createBrowserRouter([
           ),
         Component: BrowseTasks,
       },
+
       {
         path: `/see-details/:id`,
         loader: () =>
@@ -67,15 +68,6 @@ const router = createBrowserRouter([
       {
         path: "add-task",
         element: <AddTask></AddTask>,
-      },
-
-      {
-        path: "all-items",
-        loader: () =>
-          fetch(
-            "https://freelance-task-marketplace-server-nine.vercel.app/addUser"
-          ),
-        Component: BrowseTasks,
       },
 
       {
