@@ -13,6 +13,8 @@ import UpdateData from "../Components/UpdateData";
 import DashboardLayout from "../Deasbord/DashboardLayout";
 import Overview from "../Deasbord/OverView";
 import HomeDash from "../Deasbord/HomeDash";
+import About from "../Components/About";
+import Faq from "../Components/Faq";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
             <SeeDetails></SeeDetails>
           </PrivetRoute>
         ),
+      },
+      {
+        path: '/about',
+        Component: About,
+      },
+      {
+        path: '/fqa',
+        Component: Faq
       },
       {
         path: "/login",

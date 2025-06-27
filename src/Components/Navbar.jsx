@@ -51,13 +51,16 @@ const Navbar = () => {
       <li data-aos="fade-down">
         <NavLink to="/about">About</NavLink>
       </li>
+      <li data-aos="fade-down">
+        <NavLink to="/fqa">FAQ</NavLink>
+      </li>
     </>
   );
 
   return (
     <div
       className={`${
-        navbarScrolled ? "bg-transparent" : "bg-white"
+        navbarScrolled ? "bg-transparent" : "bg-white dark:bg-zinc-800 dark:text-white"
       } dark:text-white backdrop-blur-xl fixed top-0 right-0 left-0 z-50 py-4 transition-colors duration-500`}
     >
       <div className="navbar w-full sm:w-11/12 mx-auto">
