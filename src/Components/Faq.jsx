@@ -160,7 +160,7 @@ const Faq = () => {
               support@grapestask.com
             </span>{" "}
             or call{" "}
-            <span className="text-primary font-semibold">+880-XXXX-XXXXXX</span>
+            <span className="text-primary font-semibold">+880-1602-944969</span>
             .
           </p>
         </div>

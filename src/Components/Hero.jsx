@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import Lottie from 'lottie-react';
-import animation from '/public/Animation - 1750936157769.json'; // Adjust the path as necessary
+import animation from '/public/hero-anitamtion'; // Adjust the path as necessary
 
 const Hero = () => {
     return (
